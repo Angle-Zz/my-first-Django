@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'blog',
 ]
 
+ALLOWED_HOSTS = ['anglezz.pythonanywhere.com']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
